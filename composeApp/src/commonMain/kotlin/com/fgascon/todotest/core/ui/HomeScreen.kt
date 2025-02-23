@@ -31,7 +31,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import org.jetbrains.compose.resources.painterResource
-import org.jetbrains.compose.ui.tooling.preview.Preview
 import todotest.composeapp.generated.resources.Res
 import todotest.composeapp.generated.resources.compose_multiplatform
 
@@ -143,13 +142,4 @@ fun HomeScreen(
             }
         }
     }
-}
-
-@Preview
-@Composable
-fun HomeScreenPreview() {
-    HomeScreen(
-        state = HomeState(),
-        onAction = {}
-    )
 }
